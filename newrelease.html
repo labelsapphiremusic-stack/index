@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8" />
-    <title>Sapphire Music — Новый релиз</title>
+    <title>Sapphire Music — Личный кабинет</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- вместо встроенного <style> подключаем внешний файл -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,11 +13,11 @@
         <div class="logo-icon"></div>
         <div>
             <div class="logo-text-main">Sapphire Music</div>
-            <div class="logo-text-sub">Label Dashboard</div>
+            <div class="logo-text-sub">LABEL DASHBOARD</div>
         </div>
     </div>
 
-    <div class="sidebar-section-title">Навигация</div>
+    <div class="sidebar-section-title">НАВИГАЦИЯ</div>
     <ul class="nav-list">
         <li>
             <a href="index.html" class="nav-item">
@@ -51,7 +52,6 @@
 
     <div class="content-wrapper">
         <div class="content-inner">
-
             <h1 class="page-title">Новый релиз</h1>
 
             <div class="search-bar">
@@ -61,11 +61,10 @@
                 </div>
             </div>
 
+            <!-- Блок 1. Основная информация о релизе -->
             <div class="card">
                 <div class="card-title">Основная информация о релизе</div>
-                <p class="hint">
-                    Заполните ключевые данные. Эти данные будут использоваться на площадках.
-                </p>
+                <p class="hint">Заполните ключевые данные. Эти данные будут использоваться на площадках.</p>
 
                 <div class="form-group">
                     <label>Название релиза <span class="required-star">*</span></label>
@@ -99,6 +98,7 @@
                 </div>
             </div>
 
+            <!-- Блок 2. Треки и файлы -->
             <div class="card">
                 <div class="card-title">Треки и файлы</div>
                 <p class="hint">Загрузите аудиофайлы и укажите техническую информацию.</p>
@@ -115,15 +115,16 @@
 
                 <div class="form-group">
                     <label>Аудиофайл (WAV/FLAC)</label>
-                    <input type="text" placeholder="Загрузка файла будет реализована позже" />
+                    <input type="text" placeholder="Файл будет загружен в будущей версии" />
                 </div>
 
                 <div class="form-group">
                     <label>Обложка релиза</label>
-                    <input type="text" placeholder="Загрузка обложки будет реализована позже" />
+                    <input type="text" placeholder="Файл обложки будет загружен в будущей версии" />
                 </div>
             </div>
 
+            <!-- Блок 3. Права и авторы -->
             <div class="card">
                 <div class="card-title">Права и авторы</div>
                 <p class="hint">Укажите правообладателя и авторов релиза.</p>
